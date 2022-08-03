@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Main {
     //Ceiling of number means the smallest element in array greater or equal to target
     static int ceiling(int[] arr, int target){
+        if (target > arr[arr.length-1]){
+            return -1;
+        }
         int start = 0;
         int end = arr.length - 1;
         while (start <= end){
