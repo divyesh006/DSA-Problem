@@ -11,7 +11,8 @@ public class Main {
                 //this means you look right side of array
                 // here we don't take mid element because here already mid element is less than mid + 1 element
                 start = mid + 1;
-            }else if (arr[mid] > arr[mid+1]){
+            }else {
+                // (arr[mid] > arr[mid+1])
                 //you are in dec part of array
                 //this means you look left side of array
                 //here we take mid element in search range because this might be ans also
