@@ -15,7 +15,7 @@ public class Main {
                 end = mid;
             }
         }
-        //now start and end point both are same it is a peak point 
+        //now start and end point both are same it is a peak point
         //first we find element in first part of array( in Asc part )
         index = binarySearch(arr, target, 0, end,true);
         //if element don't found in first half of array we find in  second part of array ( in Dec part)
